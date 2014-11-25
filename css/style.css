@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6{
 
 .page-header .box-heading{
 	font-family: 'Parisish', 'Riesling','Petrona';
-	font-size: 20px;
+	font-size: 24px;
 	padding: 10px;
 	border: 1px solid #222;
 	margin-bottom: 22px;
@@ -334,6 +334,7 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 300;
 	margin: 0px auto;
 	font-family: 'Parisish', 'Riesling','Petrona';
+	font-size: 24px;
 }
 
 /***************** ABOUT ***************/
@@ -599,6 +600,13 @@ h1, h2, h3, h4, h5, h6{
 #contact{
 	position: relative;
 	z-index: 1;
+	font-family: 'Lato',  'Petrona';
+}
+#contact {
+background:url('../img/map.png');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
 }
 
 #contact-holder{
@@ -627,7 +635,7 @@ h1, h2, h3, h4, h5, h6{
 	top: 44px;
 	right: 44px;
 	letter-spacing: 3px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #contact iframe{
@@ -739,7 +747,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #contact-form .btn-wrapper{
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 3px;
 	float: right;
 }
@@ -805,5 +813,7 @@ h1, h2, h3, h4, h5, h6{
 
 #copy-text{
 	opacity: 0.4;
-	font-size: 12px;
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
 }
