@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "allisonandminh@gmail.com";
+    $email_to = "christamarie.c@gmail.com";
  
     $email_subject = "RSVP";
  
@@ -66,19 +66,19 @@ if(isset($_POST['email'])) {
  
   }
  
-    $string_exp = "/^[A-Za-z .'-]+$/";
+  //   $string_exp = "/^[A-Za-z .'-]+$/";
  
-  if(!preg_match($string_exp,$name)) {
+  // if(!preg_match($string_exp,$name)) {
  
-    $error_message .= 'The Name you entered does not appear to be valid.<br />';
+  //   $error_message .= 'The Name you entered does not appear to be valid.<br />';
  
-  }
+  // }
  
-  if(strlen($text) < 2) {
+  // if(strlen($text) < 2) {
  
-    $error_message .= 'The Text you entered do not appear to be valid.<br />';
+  //   $error_message .= 'The Text you entered do not appear to be valid.<br />';
  
-  }
+  // }
  
   if(strlen($error_message) > 0) {
  
