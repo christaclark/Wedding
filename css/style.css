@@ -340,11 +340,14 @@ h1, h2, h3, h4, h5, h6{
 /***************** ABOUT ***************/
 
 #about-text{
-	columns:100px 3;
-	-webkit-columns:100px 3; /* Safari and Chrome */
-	-moz-columns:100px 3; /* Firefox */
+	 columns:100px 1;
+	-webkit-columns:100px 1; /* Safari and Chrome */
+	-moz-columns:100px 1;  /*Firefox */
 	font-weight: 300;
 	margin-bottom: 66px;
+}
+#about-text p{
+	font-size: 48px;
 }
 
 .team-member{
@@ -653,14 +656,58 @@ background:url('../img/map.png');
 }
 
 #contact-details li{
-	float: left;
+	float: center;
 	margin-right: 11px;
 	padding: 10px 10px 13px 10px;
 	background-color: #222;
 	color: #fff;
 	margin-bottom: 11px;
+	max-width: 300px;
 }
 
+ #rsvp li{
+	float: center;
+	margin-right: 11px;
+	padding: 10px 10px 13px 10px;
+	background-color: #222;
+	color: #fff;
+	margin-bottom: 11px;
+	max-width: 300px;
+	list-style: none;
+}
+
+
+ #am li{
+	float: center;
+	margin-right: 11px;
+	padding: 10px 10px 13px 10px;
+	margin-bottom: 11px;
+	max-width: 300px;
+	list-style: none;
+}
+
+#contact-form .mc-field-group {
+max-width: 300px;
+}
+	/* 
+	float: center;
+color: black;
+margin-bottom: 11px;
+
+overflow: hidden;
+	list-style: none;
+}
+*/
+
+
+.btn-wrapper {
+float: left;
+margin-right: 11px;
+padding: 10px 10px 13px 10px;
+background-color: #222;
+color: #fff;
+margin-bottom: 11px;
+}
 #contact-details li a{
 	color: #fff;
 }
