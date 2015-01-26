@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 24px;
 }
 
-/***************** ABOUT ***************/
+/***************** ABOUT  WEDDING***************/
 
 #about-text{
 	 columns:100px 1;
@@ -345,6 +345,8 @@ h1, h2, h3, h4, h5, h6{
 	-moz-columns:100px 1;  /*Firefox */
 	font-weight: 300;
 	margin-bottom: 66px;
+	display: block;
+	text-align: justify;
 }
 #about-text p{
 	font-size: 48px;
