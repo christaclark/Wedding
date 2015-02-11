@@ -1,3 +1,20 @@
+/* Download fonts */
+
+@font-face {
+    font-family: 'Parisish';
+    src: url('../fonts/Parisish-webfont.eot');
+    src: url('../fonts/Parisish-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Parisish-webfont.woff') format('woff'),
+         url('../fonts/Parisish-webfont.ttf') format('truetype'),
+         url('../fonts/Parisish-webfont.svg#Parisish') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 /***************** PSEUDO & GENERAl CLASSES ***************/
 
 body{  -webkit-font-smoothing: antialiased; }
